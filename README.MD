@@ -25,3 +25,15 @@ https://addons.mozilla.org/en-US/firefox/addon/stylish/
 主题链接：
 
 https://userstyles.org/styles/139549/zhihu-2016
+
+
+
+## Version
+
+### v1.0
+
+* 缩小header
+* 缩小字体
+* 去掉边框
+* 淡化侧边栏
+
