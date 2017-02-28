@@ -25,7 +25,8 @@ body {
 
 // card style
 .Card {
-	border: 1px solid #eee;
+	// border: 1px solid #eee;
+	border: none;
 	border-radius: 0;
 	box-shadow: none;
 }
@@ -150,6 +151,20 @@ header {
 				}
 				.QuestionInvitation-content {
 					min-height: auto;
+				}
+			}
+
+			.ContentItem-actions:not(.is-fixed) {
+				border-bottom: 1px solid #ccc;
+				margin-bottom: 40px;
+			}
+		}
+		.Question-sideColumn {
+			.Card.Banner {
+				opacity: 0.1;
+
+				&:hover {
+					opacity: 1;
 				}
 			}
 		}
