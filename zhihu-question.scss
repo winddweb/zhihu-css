@@ -36,6 +36,10 @@ body {
 	border: none;
 }
 
+.ContentItem-content {
+	font-size: 13px;
+}
+
 /**
  * Header
 * -------------------------------------------------------------- */
@@ -49,7 +53,7 @@ header {
 
 		// Logo
 		.Icon.Icon--logo {
-			fill: #fff;
+			fill: #fff !important;
 		}
 
 		// Nav
@@ -63,7 +67,7 @@ header {
 		.AppHeader-userInfo {
 			top: 20px;
 
-			.Icon.Icon--message
+			.Icon.Icon--message,
 			.Icon.Icon--news {
 				fill: #fff;
 			}
@@ -89,12 +93,14 @@ header {
 * -------------------------------------------------------------- */
 .App-main {
 	.QuestionHeader-title {
-		font-size: 14px;
+		font-size: 18px !important;
+		font-weight: bold;
 	}
 
 	.QuestionHeader {
 		box-shadow: none;
 		border-bottom: none;
+		padding: 10px 0 0;
 
 		.QuestionHeader-content {
 			// Question header
@@ -104,6 +110,10 @@ header {
 			.QuestionHeader-side {
 
 			}
+		}
+
+		.QuestionHeader-footer {
+			// padding-bottom: 12px;
 		}
 	}
 
@@ -152,6 +162,10 @@ header {
 				.QuestionInvitation-content {
 					min-height: auto;
 				}
+			}
+
+			.AnswerItem-meta.AnswerItem-meta--related {
+				border-bottom: 1px solid #ccc;
 			}
 
 			.ContentItem-actions:not(.is-fixed) {
