@@ -32,6 +32,7 @@ body {
 
 .List-item {
 	padding: 5px 10px;
+	border: none;
 }
 
 /**
@@ -47,7 +48,7 @@ header {
 
 		// Logo
 		.Icon.Icon--logo {
-			fill: rgb(73, 151, 236);
+			fill: #fff;
 		}
 
 		// Nav
@@ -60,6 +61,11 @@ header {
 		// User
 		.AppHeader-userInfo {
 			top: 20px;
+
+			.Icon.Icon--message
+			.Icon.Icon--news {
+				fill: #fff;
+			}
 		}
 	}
 }
