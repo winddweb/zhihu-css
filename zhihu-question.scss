@@ -19,6 +19,20 @@
  * 通用
  *
 * -------------------------------------------------------------- */
+body {
+	background: #fff;
+}
+
+// card style
+.Card {
+	border: 1px solid #eee;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.List-item {
+	padding: 5px 10px;
+}
 
 /**
  * Header
@@ -31,8 +45,67 @@ header {
 	.AppHeader-inner {
 		height: 40px;
 
+		// Logo
+		.Icon.Icon--logo {
+			fill: rgb(73, 151, 236);
+		}
+
+		// Nav
+		.AppHeader-nav {
+			.AppHeader-navItem {
+				color: #fff;
+			}
+		}
+
+		// User
 		.AppHeader-userInfo {
 			top: 20px;
+		}
+	}
+}
+
+/**
+ * Main App
+* -------------------------------------------------------------- */
+.App-main {
+	.QuestionHeader {
+		box-shadow: none;
+		border-bottom: none;
+
+		.QuestionHeader-content {
+			// Question header
+			.QuestionHeader-main {
+
+			}
+			.QuestionHeader-side {
+
+			}
+		}
+	}
+
+	// main question
+	.Question-main {
+		.Question-mainColumn {
+			.QuestionInvitation {
+				[data-za-module="UserList"] {
+					.List-item {
+						padding: 5px 10px;
+					}
+					.UserItem-name,
+					.PortraitItem-actions {
+						font-size: 10px !important;
+					}
+					.ContentItem-meta .PortraitItem {
+						font-size: 10px !important;
+					}
+					.UserItem-avatar {
+						.Avatar--large {
+							width: 30px;
+							height: 30px;
+						}
+					}
+				}
+			}
 		}
 	}
 }
