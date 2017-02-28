@@ -89,21 +89,44 @@ header {
 			.QuestionInvitation {
 				[data-za-module="UserList"] {
 					.List-item {
-						padding: 5px 10px;
+						padding: 0;
 					}
-					.UserItem-name,
-					.PortraitItem-actions {
+					.UserItem-name {
 						font-size: 10px !important;
 					}
-					.ContentItem-meta .PortraitItem {
+					.ContentItem-meta {
+						font-size: 10px !important;
+					}
+					.PortraitItem-actions button {
+						line-height: 24px;
+						padding: 0 8px;
+						font-size: 10px !important;
+					}
+					.PortraitItem {
 						font-size: 10px !important;
 					}
 					.UserItem-avatar {
-						.Avatar--large {
-							width: 30px;
-							height: 30px;
+						.Avatar.Avatar--large.UserLink-avatar {
+							transform: scale(0.5)
 						}
 					}
+				}
+				.Card-header {
+					height: 36px;
+
+					.Card-headerText {
+						font-size: 10px !important;
+					}
+					.Card-headerOptions input {
+						font-size: 10px !important;
+					}
+				}
+				.Button.QuestionMainAction {
+					height: 35px;
+					font-size: 10px !important;
+				}
+				.QuestionInvitation-content {
+					min-height: auto;
 				}
 			}
 		}
