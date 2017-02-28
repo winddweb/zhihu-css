@@ -1,5 +1,6 @@
-/* 问题页 */
 
+// Author: Yifeng Huang
+/* 问题页 */
 /*===========================================*/
 /*================== 宽屏适配 ==================*/
 /*===========================================*/
@@ -174,12 +175,18 @@ header {
 			}
 		}
 		.Question-sideColumn {
+			opacity: 0.5;
+			&:hover {
+				opacity: 1;
+			}
 			.Card.Banner {
 				opacity: 0.1;
-
 				&:hover {
 					opacity: 1;
 				}
+			}
+			.Card.AnswerAuthor {
+
 			}
 		}
 	}
