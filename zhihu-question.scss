@@ -70,10 +70,27 @@ header {
 	}
 }
 
+.PageHeader.is-shown {
+	.QuestionHeader-title {
+		color: #fff;
+	}
+
+	.Button {
+		color: #fff;
+	}
+	.Icon.Button-icon.Icon--modify {
+		fill: #fff;
+	}
+}
+
 /**
  * Main App
 * -------------------------------------------------------------- */
 .App-main {
+	.QuestionHeader-title {
+		font-size: 14px;
+	}
+
 	.QuestionHeader {
 		box-shadow: none;
 		border-bottom: none;
