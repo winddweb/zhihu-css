@@ -164,7 +164,10 @@ header {
 					min-height: auto;
 				}
 			}
-
+			.QuestionMainAction,
+			.AnswerAdd {
+				background: #efefef;
+			}
 			.AnswerItem-meta.AnswerItem-meta--related {
 				border-bottom: 1px solid #ccc;
 			}
