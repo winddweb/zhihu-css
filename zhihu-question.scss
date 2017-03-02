@@ -173,6 +173,10 @@ header {
 				border-bottom: 1px solid #ccc;
 				margin-bottom: 40px;
 			}
+
+			.List-item:not(:last-child):after {
+				border-bottom:none;
+			}
 		}
 		.Question-sideColumn {
 			opacity: 0.5;
