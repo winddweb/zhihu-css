@@ -37,6 +37,23 @@ https://addons.mozilla.org/en-US/firefox/addon/stylish/
 
 https://userstyles.org/styles/139549/zhihu-2016
 
+
+
+最简单的用法就是
+
+1. 安装Stylish 插件
+2. 安装我发布的Style
+3. 记得时不时查看一下有没有update
+
+或者
+
+1. 你可以自己compile 我的scss 文件，手动粘贴到Stylish 里去。
+2. 在Stylish 里记得设置 `URLPrefix`  `https://www.zhihu.com/question`
+
+   ​
+
+   ​
+
 ## Version
 
 ### v1.0
