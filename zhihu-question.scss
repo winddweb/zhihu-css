@@ -4,6 +4,8 @@
 /*================== 宽屏适配 ==================*/
 /*===========================================*/
 
+@import 'partials/var';
+
 .zm-meta-panel {
 	padding: 7px 0 13px 0;
 }
@@ -244,12 +246,12 @@ header {
 			.QuestionMainAction,
 			.AnswerAdd {
 				.AnswerAdd-header {
-					background: #f7f8fa;
+					background: $light-grey;
 				}
 			}
 			.AnswerItem-meta.AnswerItem-meta--related {
 				border-bottom: 1px solid #ebebeb;
-				background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #f7f8fa 100%);
+				background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, $light-grey 100%);
 
 			}
 
