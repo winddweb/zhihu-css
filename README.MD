@@ -8,14 +8,14 @@
 
 ## 预览
 
-![Screen Shot 0](screenshots/Screen Shot 0.png)
+![Screen Shot 0](https://cloud.githubusercontent.com/assets/1504159/24578621/df7ff9fa-1698-11e7-8feb-a6d01d89f669.png)
 > Stylish
 
 ### Before
-![Screen Shot 1](screenshots/Screen Shot 1.png)
+![Screen Shot 1](https://cloud.githubusercontent.com/assets/1504159/24578622/e2717e4a-1698-11e7-9a39-cd595a2b2b5d.png)
 
 ### After
-![Screen Shot 2](screenshots/Screen Shot 2.png)
+![Screen Shot 2](https://cloud.githubusercontent.com/assets/1504159/24578624/e534333e-1698-11e7-9550-d8ee4b32aeaa.png)
 
 ## 使用
 
@@ -49,7 +49,6 @@ https://userstyles.org/styles/139549/zhihu-2016
 1. 你可以自己compile 我的scss 文件，手动粘贴到Stylish 里去。
 2. 在Stylish 里记得设置 `URLPrefix`  `https://www.zhihu.com/question`
 
-   ​
 ## Version
 
 ### v1.1
