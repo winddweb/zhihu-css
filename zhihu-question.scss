@@ -26,6 +26,13 @@ body {
 	font-family: '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
+a {
+	color: $link-blue;
+	&:hover {
+		color: $zhihu-blue-hover;
+	}
+}
+
 // card style
 .Card {
 	// border: 1px solid #eee;
@@ -48,7 +55,7 @@ body {
 * -------------------------------------------------------------- */
 header {
 	&.Sticky.AppHeader {
-		background: #137ad5;
+		background: $zhihu-blue;
 	}
 
 	.AppHeader-inner {
