@@ -21,6 +21,7 @@
 * -------------------------------------------------------------- */
 body {
 	background: #fff;
+	font-family: '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 // card style
@@ -115,6 +116,7 @@ header {
 	.QuestionHeader-title {
 		font-size: 18px !important;
 		font-weight: bold;
+		// margin-bottom: 16px;
 	}
 
 	.QuestionHeader {
@@ -127,6 +129,14 @@ header {
 		// Question header
 		.QuestionHeader-main {
 			padding: 0 10px;
+			.QuestionHeader-topics {
+				.Tag {
+					font-size: 12px;
+					padding: 0 10px;
+					line-height: 20px;
+					height: 20px;
+				}
+			}
 			.QuestionRichText {
 				// font-size: 15px;
 				line-height: 24px;
@@ -260,7 +270,7 @@ header {
 				opacity: 1;
 			}
 			.Card.Banner {
-				opacity: 0.1;
+				opacity: 0.5;
 				&:hover {
 					opacity: 1;
 				}
