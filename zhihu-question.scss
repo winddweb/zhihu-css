@@ -201,13 +201,18 @@ header {
 			}
 
 			.ContentItem-actions:not(.is-fixed) {
-				margin-bottom: 40px;
+				// margin-bottom: 10px;
 			}
 			.List-header {
 				margin: 0 12px;
 			}
 
 			.List-item {
+				padding: 20px 24px;
+				&:not(:last-child):after {
+					border-bottom:none;
+				}
+
 				.ContentItem-meta {
 
 				}
@@ -215,6 +220,7 @@ header {
 				.RichContent {
 					// font-size: 15px;
 					line-height: 24px;
+					border-bottom: 1px solid #ebebeb;
 				}
 
 				.RichText {
@@ -224,16 +230,16 @@ header {
 				}
 			}
 
-			.List-item:not(:last-child):after {
-				border-bottom:none;
-			}
-
 			.QuestionMainAction,
 			.AnswerAdd {
-				background: #efefef;
+				.AnswerAdd-header {
+					background: #f7f8fa;
+				}
 			}
 			.AnswerItem-meta.AnswerItem-meta--related {
 				border-bottom: 1px solid #ebebeb;
+				background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #f7f8fa 100%);
+
 			}
 
 			.QuestionAnswers-answerAdd {
