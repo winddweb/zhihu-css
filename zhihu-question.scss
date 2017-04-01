@@ -208,7 +208,7 @@ header {
 			}
 
 			.List-item {
-				padding: 20px 24px;
+				padding: 20px 10px;
 				&:not(:last-child):after {
 					border-bottom:none;
 				}
@@ -220,6 +220,7 @@ header {
 				.RichContent {
 					// font-size: 15px;
 					line-height: 24px;
+					margin-top: 10px;
 					border-bottom: 1px solid #ebebeb;
 				}
 
