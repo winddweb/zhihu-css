@@ -126,7 +126,7 @@ header {
 	.QuestionHeader-content {
 		// Question header
 		.QuestionHeader-main {
-
+			padding: 0 10px;
 		}
 		.QuestionHeader-side {
 
@@ -207,7 +207,9 @@ header {
 				border-bottom: 1px solid #ccc;
 				margin-bottom: 40px;
 			}
-
+			.List-header {
+				margin: 0 12px;
+			}
 			.List-item:not(:last-child):after {
 				border-bottom:none;
 			}
