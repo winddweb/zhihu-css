@@ -211,10 +211,10 @@ header {
 					min-height: auto;
 				}
 			}
-
-			.ContentItem-actions:not(.is-fixed) {
-				// margin-bottom: 10px;
+			.QuestionMainAction {
+				background: $light-grey;
 			}
+
 			.List-header {
 				margin: 0 12px;
 			}
@@ -228,7 +228,9 @@ header {
 				.ContentItem-meta {
 
 				}
-
+				.ContentItem-actions:not(.is-fixed) {
+					// margin-bottom: 10px;
+				}
 				.RichContent {
 					// font-size: 15px;
 					line-height: 24px;
