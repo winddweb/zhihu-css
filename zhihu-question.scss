@@ -225,8 +225,7 @@ header {
 			}
 
 			.List-item:not(:last-child):after {
-				// border-bottom:none;
-				// border-top: 1px solid #ccc;
+				border-bottom:none;
 			}
 
 			.QuestionMainAction,
@@ -234,13 +233,16 @@ header {
 				background: #efefef;
 			}
 			.AnswerItem-meta.AnswerItem-meta--related {
-				border-bottom: 1px solid #ccc;
+				border-bottom: 1px solid #ebebeb;
 			}
 
 			.QuestionAnswers-answerAdd {
 				.AnswerForm-editor {
-					&.is-focus {
+					background-color: #fff;
 
+					&.is-focus {
+						color: #4B3320;
+						background-color: #F7F1E4;
 					}
 				}
 			}
