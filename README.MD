@@ -1,5 +1,7 @@
 # Zhihu 问题页 2016 （恢复知乎原来的样子）
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## 动机
 
 2017年的新版知乎实在是浪费空间，对于我用着15寸1680x1050分辨率的小屏幕来说，受不了那信息量不足的状况。所以稍微改动一下css，把它变得能接受一点。
@@ -31,12 +33,9 @@ Firefox
 
 https://addons.mozilla.org/en-US/firefox/addon/stylish/
 
-
-
 主题链接：
 
 https://userstyles.org/styles/139549/zhihu-2016
-
 
 
 最简单的用法就是
@@ -51,10 +50,14 @@ https://userstyles.org/styles/139549/zhihu-2016
 2. 在Stylish 里记得设置 `URLPrefix`  `https://www.zhihu.com/question`
 
    ​
-
-   ​
-
 ## Version
+
+### v1.1
+* 关注按钮
+* 添加回答
+* 回答之间的分隔
+* 字体改进
+* 对齐改进
 
 ### v1.0
 
@@ -62,4 +65,6 @@ https://userstyles.org/styles/139549/zhihu-2016
 * 缩小字体
 * 去掉边框
 * 淡化侧边栏
+
+
 
