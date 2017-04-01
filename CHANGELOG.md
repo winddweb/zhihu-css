@@ -1,5 +1,17 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/winddweb/zhihu-css/compare/1.1.0...v1.1.1) (2017-04-01)
+
+
+### Features
+
+* add bg color to "view all answer" button ([aa74f55](https://github.com/winddweb/zhihu-css/commit/aa74f55))
+* add partial scss ([f7f297b](https://github.com/winddweb/zhihu-css/commit/f7f297b))
+* change link color, more outstanding ([b72f50e](https://github.com/winddweb/zhihu-css/commit/b72f50e))
+
+
+
 <a name="1.1.0"></a>
-# 1.1.0 (2017-04-01)
+# [1.1.0](https://github.com/winddweb/zhihu-css/compare/62235b9...1.1.0) (2017-04-01)
 
 
 ### Bug Fixes
