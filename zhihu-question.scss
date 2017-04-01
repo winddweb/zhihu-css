@@ -127,6 +127,10 @@ header {
 		// Question header
 		.QuestionHeader-main {
 			padding: 0 10px;
+			.QuestionRichText {
+				// font-size: 15px;
+				line-height: 24px;
+			}
 		}
 		.QuestionHeader-side {
 
@@ -195,6 +199,36 @@ header {
 					min-height: auto;
 				}
 			}
+
+			.ContentItem-actions:not(.is-fixed) {
+				margin-bottom: 40px;
+			}
+			.List-header {
+				margin: 0 12px;
+			}
+
+			.List-item {
+				.ContentItem-meta {
+
+				}
+
+				.RichContent {
+					// font-size: 15px;
+					line-height: 24px;
+				}
+
+				.RichText {
+					p {
+						margin-bottom: 0.5em;
+					}
+				}
+			}
+
+			.List-item:not(:last-child):after {
+				// border-bottom:none;
+				// border-top: 1px solid #ccc;
+			}
+
 			.QuestionMainAction,
 			.AnswerAdd {
 				background: #efefef;
@@ -203,15 +237,12 @@ header {
 				border-bottom: 1px solid #ccc;
 			}
 
-			.ContentItem-actions:not(.is-fixed) {
-				border-bottom: 1px solid #ccc;
-				margin-bottom: 40px;
-			}
-			.List-header {
-				margin: 0 12px;
-			}
-			.List-item:not(:last-child):after {
-				border-bottom:none;
+			.QuestionAnswers-answerAdd {
+				.AnswerForm-editor {
+					&.is-focus {
+
+					}
+				}
 			}
 		}
 		.Question-sideColumn {
