@@ -88,6 +88,20 @@ header {
 	.Button {
 		color: #fff;
 	}
+
+	.QuestionHeader-side {
+		.Button--primary{
+			&.Button--grey{
+				background: #52b657;
+				border: 1px solid #377d2d;
+				&:hover {
+					background: #c5592f;
+					border: 1px solid #b9a9c5;
+				}
+			}
+		}
+	}
+
 	.Icon.Button-icon.Icon--modify {
 		fill: #fff;
 	}
@@ -106,19 +120,31 @@ header {
 		box-shadow: none;
 		border-bottom: none;
 		padding: 10px 0 0;
+	}
 
-		.QuestionHeader-content {
-			// Question header
-			.QuestionHeader-main {
+	.QuestionHeader-content {
+		// Question header
+		.QuestionHeader-main {
 
-			}
-			.QuestionHeader-side {
-
-			}
 		}
+		.QuestionHeader-side {
 
-		.QuestionHeader-footer {
-			// padding-bottom: 12px;
+		}
+	}
+
+	.QuestionHeader-footer {
+		// padding-bottom: 12px;
+		.QuestionHeader-side {
+			.Button--primary{
+				&.Button--grey{
+					background: #52b657;
+					border: 1px solid #377d2d;
+					&:hover {
+						background: #c5592f;
+						border: 1px solid #b9a9c5;
+					}
+				}
+			}
 		}
 	}
 
