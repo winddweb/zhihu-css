@@ -242,6 +242,15 @@ header {
 
 			.List-header {
 				margin: 0 12px;
+				padding: 0;
+
+				.List-headerText,
+				.List-headerOptions {
+					font-size: 12px;
+					.Button {
+						font-size: 12px;
+					}
+				}
 			}
 
 			.List-item {
