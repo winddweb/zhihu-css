@@ -2,7 +2,7 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![GitHub release](https://img.shields.io/github/release/winddweb/zhihu-css.svg)](https://github.com/winddweb/zhihu-css/releases)
-[![GitHub commits](https://img.shields.io/github/commits-since/winddweb/zhihu-css/v1.1.1.svg)]()
+[![GitHub commits](https://img.shields.io/github/commits-since/winddweb/zhihu-css/v1.1.2.svg)]()
 
 ## 动机
 
