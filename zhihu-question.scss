@@ -23,7 +23,9 @@
 * -------------------------------------------------------------- */
 body {
 	background: #fff;
+	color: #444;
 	font-family: '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	letter-spacing: .02em;
 }
 
 a {
@@ -45,9 +47,14 @@ a {
 	padding: 5px 10px;
 	border: none;
 }
+.RichContent {
+	font-size: 14px;
+	line-height: 24px;
+}
 
-.ContentItem-content {
-	font-size: 13px;
+.QuestionHeader-edit {
+	font-size: 12px;
+	font-weight: normal;
 }
 
 /**
@@ -125,7 +132,7 @@ header {
 	.QuestionHeader-title {
 		font-size: 18px !important;
 		font-weight: bold;
-		// margin-bottom: 16px;
+		color: lighten(#333, 10);
 	}
 
 	.QuestionHeader {
@@ -146,9 +153,11 @@ header {
 					height: 20px;
 				}
 			}
-			.QuestionRichText {
-				// font-size: 15px;
-				line-height: 24px;
+			.QuestionHeader-detail {
+				.QuestionRichText {
+					font-size: 14px;
+					line-height: 23px;
+				}
 			}
 		}
 		.QuestionHeader-side {
@@ -239,7 +248,7 @@ header {
 					// margin-bottom: 10px;
 				}
 				.RichContent {
-					// font-size: 15px;
+					font-size: 14px;
 					line-height: 24px;
 					margin-top: 10px;
 					border-bottom: 1px solid #ebebeb;
@@ -250,8 +259,58 @@ header {
 						margin-bottom: 0.5em;
 					}
 				}
-			}
 
+
+
+			} //.List-item
+			.Comments {
+				background: $light-grey;
+
+				.CommentTopbar {
+					background: darken($light-grey, 5);
+
+					.CommentTopbar-meta {
+						height: 47px;
+					}
+					.CommentTopbar-title,
+					.CommentTopbar-switch {
+						font-size: 13px;
+					}
+					.CommentTopbar-switch {
+
+					}
+				}
+
+				.CommentItem {
+					padding: 1em 1em .5em;
+					font-size: 13px;
+					&:not(:first-child):after {
+						border-bottom: 1px solid darken($light-grey, 20);
+					}
+					.CommentItem-meta,
+					.CommentItem-content {
+						font-size: 14px;
+					}
+					.CommentItem-meta {
+
+					}
+					.CommentItem-time {
+						font-size: 13px;
+					}
+
+					.CommentItem-content {
+						line-height: 22px;
+						margin-bottom: 0;
+					}
+
+					.CommentItem-footer {
+						.Button {
+							font-size: 12px;
+						}
+					}
+				}
+
+			} //.Comments
 			.QuestionMainAction,
 			.AnswerAdd {
 				.AnswerAdd-header {
