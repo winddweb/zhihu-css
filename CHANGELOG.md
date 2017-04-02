@@ -1,3 +1,19 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/winddweb/zhihu-css/compare/v1.1.1...v1.1.2) (2017-04-02)
+
+
+### Bug Fixes
+
+* fix follow button ([05e1b8a](https://github.com/winddweb/zhihu-css/commit/05e1b8a))
+
+
+### Features
+
+* improve typography for comments, and general font size, color adjustment ([1b17ec8](https://github.com/winddweb/zhihu-css/commit/1b17ec8))
+* shrink list header font size ([bc39fb4](https://github.com/winddweb/zhihu-css/commit/bc39fb4))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/winddweb/zhihu-css/compare/1.1.0...v1.1.1) (2017-04-01)
 
