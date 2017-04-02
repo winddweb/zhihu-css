@@ -109,7 +109,16 @@ header {
 
 	.QuestionHeader-side {
 		.Button--primary{
-			&.Button--grey{
+			 &.Button--blue {
+				background: darken($zhihu-blue, 10);
+				border: 1px solid lighten($zhihu-blue, 10);
+
+				&:hover {
+					background: darken($zhihu-blue, 15);
+					border: 1px solid lighten($zhihu-blue, 10);
+				}
+			}
+			&.Button--grey {
 				background: #52b657;
 				border: 1px solid #377d2d;
 				&:hover {
@@ -169,7 +178,7 @@ header {
 		// padding-bottom: 12px;
 		.QuestionHeader-side {
 			.Button--primary{
-				&.Button--grey{
+				&.Button--grey {
 					background: #52b657;
 					border: 1px solid #377d2d;
 					&:hover {
