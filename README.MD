@@ -1,8 +1,8 @@
 # Zhihu 问题页 2016 （恢复知乎原来的样子）
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![GitHub tag](https://img.shields.io/github/tag/strongloop/express.svg)](https://github.com/winddweb/zhihu-css)
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/winddweb/zhihu-css)
+[![GitHub release](https://img.shields.io/github/release/winddweb/zhihu-css.svg)](https://github.com/winddweb/zhihu-css/releases)
+
 
 ## 动机
 
@@ -69,5 +69,6 @@ https://userstyles.org/styles/139549/zhihu-2016
 * 去掉边框
 * 淡化侧边栏
 
-
+[CHANGELOG]: ./CHANGELOG.md
+[version-badge]: https://img.shields.io/badge/version-1.1.1-blue.svg
 
