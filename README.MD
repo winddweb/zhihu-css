@@ -1,6 +1,8 @@
 # Zhihu 问题页 2016 （恢复知乎原来的样子）
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![GitHub tag](https://img.shields.io/github/tag/strongloop/express.svg)](https://github.com/winddweb/zhihu-css)
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/winddweb/zhihu-css)
 
 ## 动机
 
@@ -50,6 +52,8 @@ https://userstyles.org/styles/139549/zhihu-2016
 2. 在Stylish 里记得设置 `URLPrefix`  `https://www.zhihu.com/question`
 
 ## Version
+
+更多 Changelog 请参考 CHANGELOG.md 或者 release 信息
 
 ### v1.1
 * 关注按钮
