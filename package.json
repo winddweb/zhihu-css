@@ -19,7 +19,8 @@
   "homepage": "https://github.com/winddweb/zhihu-css#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0",
-    "grunt": "^1.0.2"
+    "grunt": "^1.0.2",
+    "grunt-sass": "^2.1.0"
   },
   "config": {
     "commitizen": {
