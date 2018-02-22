@@ -20,6 +20,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0",
     "grunt": "^1.0.2",
+    "grunt-run": "^0.8.0",
     "grunt-sass": "^2.1.0",
     "load-grunt-tasks": "^3.5.2"
   },
