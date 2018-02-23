@@ -4,3 +4,4 @@ config.codekit
 /node_modules/
 /screenshots/
 gruntfile.js
+\.vscode/
