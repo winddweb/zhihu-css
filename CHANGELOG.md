@@ -1,3 +1,19 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/winddweb/zhihu-css/compare/v1.1.2...v) (2018-05-18)
+
+
+### Bug Fixes
+
+* remove white space ([5a4657b](https://github.com/winddweb/zhihu-css/commit/5a4657b))
+
+### Features
+
+* add color ([7c31220](https://github.com/winddweb/zhihu-css/commit/7c31220))
+* change css effective domain ([a4d31b7](https://github.com/winddweb/zhihu-css/commit/a4d31b7))
+* fix login/sign up buttons ([d7a335d](https://github.com/winddweb/zhihu-css/commit/d7a335d))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/winddweb/zhihu-css/compare/v1.1.1...v1.1.2) (2017-04-02)
 
