@@ -3,3 +3,5 @@ config.codekit
 .sass-cache
 /node_modules/
 /screenshots/
+gruntfile.js
+\.vscode/
