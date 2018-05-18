@@ -1,7 +1,7 @@
 #!/bin/bash
 output='css/zhihu-question-stylish.css'
 file='css/zhihu-question.css'
-insertBegin='@-moz-document url-prefix("https://www.zhihu.com/question") {\n'
+insertBegin='@-moz-document url-prefix("https://www.zhihu.com") {\n'
 
 if [ ! -e "$output" ] ; then
     touch "$output"
