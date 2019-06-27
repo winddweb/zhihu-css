@@ -74,21 +74,32 @@ header {
 		}
 
 		// Nav
-		.AppHeader-nav {
-			.AppHeader-navItem {
+		.AppHeader-TabsLink { // .Tabs-link
+			padding: 8px 0;
+
+			&:hover {
 				color: #fff;
 			}
+
+			&.is-active {
+				color: #fff;
+				&:after {
+					background: #fff;
+				}
+			}
+			color: #eee;
 		}
 
 		// User
 		.AppHeader-userInfo {
 			top: 20px;
-
-			.Icon.Icon--message,
-			.Icon.Icon--news {
-				fill: #fff;
+			.Button--plain {
+				&:hover {
+					color: #fff;
+				}
+				color: $little-grey;
 			}
-		} 
+		}
 		// Login
 		.Button--blue {
 			&:hover {
@@ -96,14 +107,12 @@ header {
 			}
 			&.AppHeader-login {
 				color: #fff;
-				border: 1px solid #fff;			
+				border: 1px solid #fff;
 			}
-			// FIXME: this is affecting 提问 button, fix it
 			&.Button--primary {
-				color: $zhihu-blue;
-				background: #fff;
+				color: #fff;
+				background: darken($zhihu-blue, 5);
 				&:hover {
-					color: #fff;
 					border: 1px solid #fff;
 				}
 			}
@@ -117,6 +126,27 @@ header {
 }
 
 .PageHeader.is-shown {
+	.TopstoryPageHeader {
+		height: 40px;
+	}
+	.TopstoryPageHeader-main {
+		a {
+			color: $little-grey; // little gray
+		}
+		.ZhihuLogo {
+			fill: #fff !important;
+		}
+
+		.TopstoryPageHeader-tabsLink {
+			&:hover {
+				color: #fff;
+			}
+			&.is-active {
+				font-weight: bold;
+			}
+		}
+	}
+
 	.QuestionHeader-title {
 		color: #fff;
 		font-size: 16px;
