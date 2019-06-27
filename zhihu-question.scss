@@ -77,6 +77,10 @@ header {
 		.AppHeader-TabsLink { // .Tabs-link
 			padding: 8px 0;
 
+			&:hover {
+				color: #fff;
+			}
+
 			&.is-active {
 				color: #fff;
 				&:after {
@@ -93,13 +97,8 @@ header {
 				&:hover {
 					color: #fff;
 				}
-				color: $light-grey;
+				color: $little-grey;
 			}
-			// remove
-			// .Icon.Icon--message,
-			// .Icon.Icon--news {
-			// 	fill: #fff;
-			// }
 		}
 		// Login
 		.Button--blue {
@@ -127,6 +126,27 @@ header {
 }
 
 .PageHeader.is-shown {
+	.TopstoryPageHeader {
+		height: 40px;
+	}
+	.TopstoryPageHeader-main {
+		a {
+			color: $little-grey; // little gray
+		}
+		.ZhihuLogo {
+			fill: #fff !important;
+		}
+
+		.TopstoryPageHeader-tabsLink {
+			&:hover {
+				color: #fff;
+			}
+			&.is-active {
+				font-weight: bold;
+			}
+		}
+	}
+
 	.QuestionHeader-title {
 		color: #fff;
 		font-size: 16px;
