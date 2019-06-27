@@ -1,4 +1,4 @@
-# Zhihu 问题页 2016 （恢复知乎原来的样子）
+# Zhihu Style Classic
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![GitHub release](https://img.shields.io/github/release/winddweb/zhihu-css.svg)](https://github.com/winddweb/zhihu-css/releases)
