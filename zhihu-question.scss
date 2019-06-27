@@ -74,21 +74,33 @@ header {
 		}
 
 		// Nav
-		.AppHeader-nav {
-			.AppHeader-navItem {
+		.AppHeader-TabsLink { // .Tabs-link
+			padding: 8px 0;
+
+			&.is-active {
 				color: #fff;
+				&:after {
+					background: #fff;
+				}
 			}
+			color: #eee;
 		}
 
 		// User
 		.AppHeader-userInfo {
 			top: 20px;
-
-			.Icon.Icon--message,
-			.Icon.Icon--news {
-				fill: #fff;
+			.Button--plain {
+				&:hover {
+					color: #fff;
+				}
+				color: $light-grey;
 			}
-		} 
+			// remove
+			// .Icon.Icon--message,
+			// .Icon.Icon--news {
+			// 	fill: #fff;
+			// }
+		}
 		// Login
 		.Button--blue {
 			&:hover {
@@ -96,14 +108,12 @@ header {
 			}
 			&.AppHeader-login {
 				color: #fff;
-				border: 1px solid #fff;			
+				border: 1px solid #fff;
 			}
-			// FIXME: this is affecting 提问 button, fix it
 			&.Button--primary {
-				color: $zhihu-blue;
-				background: #fff;
+				color: #fff;
+				background: darken($zhihu-blue, 5);
 				&:hover {
-					color: #fff;
 					border: 1px solid #fff;
 				}
 			}
