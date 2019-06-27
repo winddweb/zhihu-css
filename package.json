@@ -1,6 +1,6 @@
 {
   "name": "zhihu-css",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)",
   "main": "index.js",
   "scripts": {
