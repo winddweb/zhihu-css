@@ -23,7 +23,7 @@
     "grunt-contrib-watch": ">1.0.0",
     "grunt-run": ">0.8.0",
     "grunt-sass": ">2.1.0",
-    "node-sass": ">=4.12.0",
+    "node-sass": ">=7.0.0",
     "load-grunt-tasks": ">3.5.2"
   },
   "config": {
